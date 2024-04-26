@@ -11,26 +11,41 @@
             border: 1px solid #ccc;
             margin-bottom: 20px;
         }
+        #menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-right: 1px solid #ccc;
+            height: 100%;
+            overflow-y: auto;
+        }
     </style>
 </head>
 <body>
-    <div class="section">
-        <h2>Uçuş Test Mühendisliği</h2>
-        <p>Uçuş test mühendisliği, havacılık endüstrisinde uçuş güvenliği ve performansının sağlanması için önemli bir rol oynar. Uçuş test mühendisleri, uçak ve diğer hava araçlarının testlerini planlar, yönetir ve gerçekleştirirler. Ayrıca, uçuş verilerini analiz ederek tasarım iyileştirmeleri ve güvenlik önlemleri önerirler.</p>
+    <div id="menu">
+        <ul>
+            <li><a href="#flight-test">Uçuş Test Mühendisliği</a></li>
+            <li><a href="#web3">Web3</a></li>
+            <li><a href="#defense-systems">Savunma Sistemleri</a></li>
+        </ul>
     </div>
-    <div class="section">
-        <h2>Web3</h2>
-        <p>A hash is a fixed-size string or numeric value obtained by applying a mathematical function (called a hash function) to an input data of arbitrary size. The purpose of a hash function is to take input data and produce a unique, fixed-length representation of that data. Hash functions are commonly used in computer science and cryptography for various purposes such as data integrity verification, indexing, data retrieval, and encryption. </p>
-        <p> Bitcoin uses SHA (Secure Hash Algorithm) - 256 <p>
-    </div>
-    <div class="section">
-        <h2>Savunma Sistemleri</h2>
-        <p>Savunma sistemleri, askeri ve güvenlik endüstrisinde kullanılan çeşitli teknolojileri içerir. Bu sistemler, tehditleri tespit etmek, engellemek ve durdurmak için tasarlanmıştır. Savunma sistemleri arasında radarlar, füzeler, güvenlik kameraları, sınır koruma sistemleri ve daha fazlası bulunmaktadır.</p>
-    </div>
-    <div class="section">
-        <h2>Learning Path</h2>
-        <p>Havacılık ve savunma endüstrisinde kariyer yapmak isteyenler için bir öğrenme yolculuğu. Bu yolculuk, havacılık ve savunma mühendisliği alanlarında bilgi ve becerilerinizi geliştirmenize yardımcı olacak kaynakları ve rehberleri içerir. Uçuş test mühendisliği, savunma sistemleri, aerodinamik, malzeme bilimi ve daha fazlasını kapsar.</p>
+    <div id="content">
+        <div id="flight-test" class="section">
+            <h2>Uçuş Test Mühendisliği</h2>
+            <p>Uçuş test mühendisliği, havacılık endüstrisinde uçuş güvenliği ve performansının sağlanması için önemli bir rol oynar. Uçuş test mühendisleri, uçak ve diğer hava araçlarının testlerini planlar, yönetir ve gerçekleştirirler. Ayrıca, uçuş verilerini analiz ederek tasarım iyileştirmeleri ve güvenlik önlemleri önerirler.</p>
+        </div>
+        <div id="web3" class="section">
+            <h2>Web3</h2>
+            <p>A hash is a fixed-size string or numeric value obtained by applying a mathematical function (called a hash function) to an input data of arbitrary size. The purpose of a hash function is to take input data and produce a unique, fixed-length representation of that data. Hash functions are commonly used in computer science and cryptography for various purposes such as data integrity verification, indexing, data retrieval, and encryption. </p>
+            <p> Bitcoin uses SHA (Secure Hash Algorithm) - 256 <p>
+        </div>
+        <div id="defense-systems" class="section">
+            <h2>Savunma Sistemleri</h2>
+            <p>Savunma sistemleri, askeri ve güvenlik endüstrisinde kullanılan çeşitli teknolojileri içerir. Bu sistemler, tehditleri tespit etmek, engellemek ve durdurmak için tasarlanmıştır. Savunma sistemleri arasında radarlar, füzeler, güvenlik kameraları, sınır koruma sistemleri ve daha fazlası bulunmaktadır.</p>
+        </div>
     </div>
 </body>
 </html>
-
