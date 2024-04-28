@@ -7,8 +7,17 @@
         <strong> Name:</strong> Fatıma Zehra <br>
         <strong> Surname: </strong> Yüksel  <br>
         <strong> Email:</strong> <a href="emeraldzehra@gmail.com">emeraldzehra@gmail.com</a><br>
-        <strong> Social Media Account: </strong> <a href="https://www.linkedin.com/in/fzy/">linkedin.com/in/fzy</a> <br>
+        <strong> Social Media Account: </strong> 
+        <li><a href="https://www.linkedin.com/in/fzy/">Linkedin</a></li>
+        <li><a href="https://github.com/microsoft>">GitHub</a></li>
         
+        <h2> Education </h2>
+        <h3>Middle East Technical University</h3>
+            <strong>Major </strong>
+                <li>Aerospace Engineering 3rd Year (2020-2025)</li>
+        <h3> Muradiye Nene Hatun Fen Lisesi </h3>
+            <li> Honor Certificate </li>
+            <li> Top student with the grade of 98.22/100 </li>
         <h2> Skills </h2>
         <ul>
             <li> HTML Programming </li>
