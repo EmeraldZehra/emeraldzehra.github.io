@@ -26,4 +26,4 @@ This HTML template consists of a left-side menu (`#menu`) and right-side content
 5. Save your changes and view the updated HTML file in a web browser to see the changes.
 
 ## License
-This template is licensed under the [MIT License](LICENSE).
+This template is licensed under the [Apache License](LICENSE).
