@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body>
+        <h1> Resume & Portfolio </h1>
+        <img src="pphoto.jpg" height="200"> <br>
+        <strong> Name:</strong> Fatıma Zehra <br>
+        <strong> Surname: </strong> Yüksel  <br>
+        <strong> Email:</strong> <a href="emeraldzehra@gmail.com">emeraldzehra@gmail.com</a><br>
+        <strong> Social Media Account: </strong> <a href="https://www.linkedin.com/in/fzy/">linkedin.com/in/fzy</a> <br>
+        
+        <h2> Skills </h2>
+        <ul>
+            <li> HTML Programming </li>
+            <li> JavaScrip Programming</li>
+            <li> Matlab & Simulink</li>
+
+        </ul>
+
+        <h2> Volunteer Studies </h2>
+        <ol>
+           <li> Microsoft Learn</li> 
+           <li> MySQL </li> 
+           <li> Edx Online Learning</li>
+            
+        </ol>
+    </body>
+</head>
+
+</html>
