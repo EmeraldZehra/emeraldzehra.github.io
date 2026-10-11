@@ -1,45 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Path</title>
-
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerald Zehra | Aerospace Engineer</title>
+    <meta name="description" content="Emerald Zehra portfolio and resume website for aerospace engineering, Web3, and defense systems." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
-
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="#flight-test">Uçuş Test Mühendisliği</a></li>
-            <li><a href="#web3">Web3</a></li>
-            <li><a href="#defense-systems">Savunma Sistemleri</a></li>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand-wrap">
+                <div class="brand-icon"><i class="fa-solid fa-plane"></i></div>
+                <div>
+                    <div class="brand-name">Emerald Zehra</div>
+                    <div class="brand-tag">Aerospace Engineer & Researcher</div>
+                </div>
+            </div>
 
-            <!-- YENİ EKLENEN LİNK (sertifikalar sayfasına yönlendirme) -->
-            <li><a href="certificates.html">Certificates</a></li>
+            <button class="mobile-menu" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-            <!-- Senin mevcut link hatalıydı, "link" attribute açıktı -->
-            <li><a href="resume&portfolio.html">Resume and Portfolio</a></li>
-        </ul>
-    </div>
-
-    <div id="content">
-        <div id="flight-test" class="section_1">
-            <h2>Uçuş Test Mühendisliği</h2>
-            <p>Uçuş test mühendisliği, havacılık endüstrisinde uçuş güvenliği ve performansının sağlanması için önemli bir rol oynar. Uçuş test mühendisleri, uçak ve diğer hava araçlarının testlerini planlar, yönetir ve gerçekleştirirler. Ayrıca, uçuş verilerini analiz ederek tasarım iyileştirmeleri ve güvenlik önlemleri önerirler.</p>
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificates</a>
+                <a href="course-notes.html">AE 5714905</a>
+                <a href="resume.html">Resume</a>
+            </nav>
         </div>
+    </header>
 
-        <div id="web3" class="section_2">
-            <h2>Web3</h2>
-            <p>A hash is a fixed-size string or numeric value obtained by applying a mathematical function (called a hash function) to an input data of arbitrary size. The purpose of a hash function is to take input data and produce a unique, fixed-length representation of that data. Hash functions are commonly used in computer science and cryptography for various purposes such as data integrity verification, indexing, data retrieval, and encryption.</p>
+    <main id="home">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Aviation • Systems • Research</p>
+                    <h1>Emerald Zehra</h1>
+                    <h2>Aerospace Engineer | System Thinking | Research Enthusiast</h2>
+                    <p>
+                        I am an aerospace engineering student currently continuing my master’s education with a CGPA of 4.0 and a strong interest in flight safety, systems engineering, spacecraft structures, defense technologies, and Web3-based applications.
+                    </p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="#projects">Explore Projects</a>
+                        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+                    </div>
+                    <div class="social-row">
+                        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/fzy" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:emeraldzehra@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
 
-            <p>Bitcoin uses SHA (Secure Hash Algorithm) - 256</p>
+                <div class="hero-card-wrap">
+                    <div class="hero-card">
+                        <div class="profile-avatar"><i class="fa-solid fa-user-astronaut"></i></div>
+                        <div class="profile-name">Emerald Zehra</div>
+                        <div class="profile-role">Engineer</div>
+                        <div class="chip-row">
+                            <span class="chip">Aviation</span>
+                            <span class="chip">Web3</span>
+                            <span class="chip">Defense</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-light">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">About</span>
+                    <h3>Research-driven engineering profile</h3>
+                </div>
+                <div class="about-grid">
+                    <div>
+                        <p>
+                            I am an aerospace engineering student who is interested in multidisciplinary engineering, innovation, and applied research. My work spans spacecraft structural design, system integration testing, flight safety analysis, defense technologies, and student research projects in aviation and aerospace domains.
+                        </p>
+                        <p>
+                            I have gained experience in integration testing, systems engineering, functional hazard assessment, research-based engineering work, and international mobility projects. I am continuing my master’s program in January 2026 and am planning to develop my research profile in a way that combines engineering rigor, safety, and practical design thinking.
+                        </p>
+                    </div>
+                    <div class="mini-panel">
+                        <ul>
+                            <li><strong>Current Status:</strong> Master’s student (continuing from Jan 2026)</li>
+                            <li><strong>CGPA:</strong> 4.0</li>
+                            <li><strong>Focus Areas:</strong> Aerospace Engineering, Flight Safety, Systems Engineering, Defense Systems</li>
+                            <li><strong>Languages:</strong> Turkish, English, German</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-dark">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">Experience</span>
+                    <h3>Professional and research experience</h3>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="date">11/2025 – 01/2026</div>
+                        <div class="content">
+                            <h4>TUBITAK UZAY, Ankara</h4>
+                            <p class="role">Space Mission Analysis and Design Group – Research Fellow</p>
+                            <ul>
+                                <li>Structural design and analysis of spacecrafts.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="date">08/2024 – 09/2024</div>
+                        <div class="content">
+                            <h4>FORD OTOSAN, Ankara</h4>
+                            <p class="role">System Engineer – Internship</p>
+                            <ul>
+                                <li>Conducted in-depth research on ADAS Features: Highway Assist (HA), Intelligent Adaptive Cruise Control (iACC), ASL and TSR. Used CAN bus for data evaluation.</li>
+                                <li>Researched regulations related to Event Data Recorder (EDR) to ensure compliance with legal requirements (R160 &amp; R169).</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="date">02/2024 – 08/2024</div>
+                        <div class="content">
+                            <h4>TUBITAK SAGE, Ankara</h4>
+                            <p class="role">Platform and Integration Testing Unit – Research Fellow</p>
+                            <ul>
+                                <li>I worked in the integration testing team, focusing on the test and certification processes for integrating a new display into military A/C cockpits.</li>
+                                <li>Visited Baykar Çorlu campus to observe practical applications, including the Fit and Function tests of Gözde and Gökçe munitions.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-light">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">Education</span>
+                    <h3>Academic background</h3>
+                </div>
+
+                <div class="edu-stack">
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <h4>Middle East Technical University</h4>
+                            <span>08/2020 – 01/2026</span>
+                        </div>
+                        <p class="edu-degree">B.Sc. in Aerospace Engineering</p>
+                        <ul>
+                            <li>Aircraft Instrument and Measurements (AE402)</li>
+                            <li>Aerospace Laboratory (AE410)</li>
+                            <li>System Engineering (AE422)</li>
+                            <li>Aircraft Design (AE452)</li>
+                            <li>Composite Material (METE470)</li>
+                        </ul>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <h4>Muradiye Science High School</h4>
+                            <span>09/2016 – 06/2020</span>
+                        </div>
+                        <p class="edu-degree">Top student with a score of 98.21/100</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-dark">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">Projects</span>
+                    <h3>Research and engineering projects</h3>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-badge">On Going</span>
+                            <span class="project-date">04/2025 – Present</span>
+                        </div>
+                        <h4>CHERI Lunar Rover Project</h4>
+                        <p class="role">Role: Mechanical &amp; Guidance Team Member</p>
+                        <ul>
+                            <li>Contributing to the mechanical leg design and composite manufacturing for a mini rover developed for the Chang’8 lunar mission.</li>
+                            <li>Worked on camera and IMU integration for navigation, trajectory, and localization systems.</li>
+                        </ul>
+                        <a href="#" class="text-link">View Certificate</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-badge">Completed</span>
+                            <span class="project-date">10/2023 – 12/2024</span>
+                        </div>
+                        <h4>TUSAŞ-METU VLA Project</h4>
+                        <p class="role">Role: Flight Safety &amp; Ground Test Team Member</p>
+                        <ul>
+                            <li>Worked on the VLA Student Project under the TUSAŞ-METU collaboration.</li>
+                            <li>Evaluated the Functional Hazard Assessment (FHA) at both aircraft and system levels.</li>
+                            <li>Identified potential ground and flight tests to verify safety requirements.</li>
+                            <li>Conducted research on CS-VLA certification standards and compliance procedures.</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-badge">Erasmus+</span>
+                            <span class="project-date">2020 – 2024</span>
+                        </div>
+                        <h4>European Commission, Youth Mobility Participant</h4>
+                        <ul>
+                            <li>I actively participate in multiple Erasmus+ KA1 youth mobility projects supported by the European Commission, holding the Europass Certificate and eligibility for international activities.</li>
+                            <li>Member of discussions on social media perception and literacy, cultural understanding, equality, and STEM for girls.</li>
+                            <li>Contributed to English-based, project-oriented learning environments emphasizing intercultural understanding, research, solutions, presentations, mini-films, and theater.</li>
+                        </ul>
+                        <a href="#" class="text-link">View Certificate</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-light">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">Skills</span>
+                    <h3>Technical and professional capabilities</h3>
+                </div>
+
+                <div class="skill-columns">
+                    <div class="skill-block">
+                        <h4>Aerospace &amp; Systems</h4>
+                        <ul>
+                            <li>Aircraft and spacecraft structural analysis</li>
+                            <li>System integration testing</li>
+                            <li>Flight safety analysis</li>
+                            <li>Functional Hazard Assessment (FHA)</li>
+                            <li>Certification process research</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <h4>Software &amp; Digital Tools</h4>
+                        <ul>
+                            <li>MATLAB</li>
+                            <li>Simulink</li>
+                            <li>System Composer</li>
+                            <li>Simscape</li>
+                            <li>ROS / PX4 / QGroundControl</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <h4>Research &amp; Collaboration</h4>
+                        <ul>
+                            <li>Project management fundamentals</li>
+                            <li>Research and presentation</li>
+                            <li>Intercultural communication</li>
+                            <li>STEM education participation</li>
+                            <li>Team-oriented product development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="section-dark">
+            <div class="container section-inner small-box">
+                <div class="section-heading">
+                    <span class="kicker">Languages</span>
+                    <h3>Language profile</h3>
+                </div>
+                <div class="language-list">
+                    <div class="language-item"><span>Turkish</span><strong>Native</strong></div>
+                    <div class="language-item"><span>English</span><strong>B2 / YDS (B)</strong> <a href="#" class="text-link">View Certificate</a></div>
+                    <div class="language-item"><span>German</span><strong>A2</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section-light">
+            <div class="container section-inner">
+                <div class="section-heading">
+                    <span class="kicker">Certifications</span>
+                    <h3>Education and training credentials</h3>
+                </div>
+
+                <div class="cert-grid">
+                    <article class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-plane-up"></i></div>
+                        <h4>TEI Aviation Engines School</h4>
+                        <p>TEI (TUSAŞ Engine Industries)</p>
+                        <span>01/2024 – 06/2024</span>
+                        <div class="cert-code">Code: HMO5920</div>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+                        <h4>ALES Quantitative</h4>
+                        <p>Score: 92.12/100</p>
+                        <a href="#" class="text-link">View Certificate</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-cube"></i></div>
+                        <h4>MATLAB Onramp – Simulink Onramp</h4>
+                        <p>Completed multiple Onramp modules including System Composer, Simscape, and Circuit Simulation.</p>
+                        <a href="#" class="text-link">View Certificates</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h4>Google Project Management Specialization</h4>
+                        <p>Project Management Professional Certificate including 6 courses.</p>
+                        <a href="#" class="text-link">View Certificate</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4>YetGen</h4>
+                        <p>21st Century Competencies Training Program</p>
+                        <a href="#" class="text-link">View Certificate</a>
+                    </article>
+
+                    <article class="cert-card secure-cert">
+                        <div class="cert-icon"><i class="fa-solid fa-id-card"></i></div>
+                        <h4>Official Document Preview</h4>
+                        <p>TC identity fields are intentionally blurred or cropped for privacy and security.</p>
+                        <div class="blur-box">Preview protected</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-inner">
+                <p class="eyebrow">Contact</p>
+                <h3>Let’s connect</h3>
+                <p>For collaborations, research opportunities, or project inquiries, I can be reached via email or LinkedIn.</p>
+                <div class="contact-row">
+                    <a href="mailto:emeraldzehra@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> emeraldzehra@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/fzy" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>© 2024 Emerald Zehra</div>
+            <div class="footer-socials">
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/fzy" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:emeraldzehra@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
         </div>
+    </footer>
 
-        <div id="defense-systems" class="section_3">
-            <h2>Savunma Sistemleri</h2>
-            <p>Savunma sistemleri, askeri ve güvenlik endüstrisinde kullanılan çeşitli teknolojileri içerir. Bu sistemler, tehditleri tespit etmek, engellemek ve durdurmak için tasarlanmıştır. Savunma sistemleri arasında radarlar, füzeler, güvenlik kameraları, sınır koruma sistemleri ve daha fazlası bulunmaktadır.</p>
-        </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
