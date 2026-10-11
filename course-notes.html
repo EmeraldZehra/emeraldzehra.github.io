@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AE 5714905 | Course Notes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand-wrap">
+                <div class="brand-icon"><i class="fa-solid fa-plane"></i></div>
+                <div>
+                    <div class="brand-name">Emerald Zehra</div>
+                    <div class="brand-tag">Course Notes</div>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section-light">
+        <div class="container section-inner" style="max-width: 1100px;">
+            <div class="section-heading">
+                <span class="kicker">AE 5714905</span>
+                <h3>Course Notes and Learning Reflection</h3>
+            </div>
+
+            <div class="course-layout">
+                <div class="course-panel">
+                    <h4>Course Overview</h4>
+                    <p>AE 5714905 is a core department course that strengthens systems thinking, analytical modeling, and engineering design decision-making. In this course, I am learning how technical problems can be understood, modeled, and solved using structured engineering approaches.</p>
+                    <p>My focus areas include conceptual reasoning, problem framing, system-level analysis, and the connection between theoretical knowledge and practical engineering solutions.</p>
+                </div>
+
+                <div class="course-panel">
+                    <h4>Key Learnings</h4>
+                    <ul>
+                        <li>Understanding complex aerospace engineering systems as interconnected components.</li>
+                        <li>Applying structured thinking to identify variables, assumptions, and constraints.</li>
+                        <li>Framing engineering problems in a way that supports evidence-based design decisions.</li>
+                        <li>Connecting abstract concepts with practical design and analysis workflows.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="note-grid">
+                <article class="note-card">
+                    <span class="note-tag">Week 1</span>
+                    <h4>Introduction to Systems</h4>
+                    <p>Learned how engineering problems should be analyzed from a system perspective instead of isolated component thinking.</p>
+                </article>
+                <article class="note-card">
+                    <span class="note-tag">Week 2</span>
+                    <h4>Modeling and Analysis</h4>
+                    <p>Studied how assumptions, parameters, and simplifications influence engineering models and final decisions.</p>
+                </article>
+                <article class="note-card">
+                    <span class="note-tag">Week 3</span>
+                    <h4>Problem Framing</h4>
+                    <p>Focused on identifying objectives, constraints, and trade-offs before selecting a design or method.</p>
+                </article>
+                <article class="note-card">
+                    <span class="note-tag">Week 4</span>
+                    <h4>Design Thinking</h4>
+                    <p>Explored how business, performance, safety, and reliability concerns influence engineering design choices.</p>
+                </article>
+                <article class="note-card">
+                    <span class="note-tag">Week 5</span>
+                    <h4>System Evaluation</h4>
+                    <p>Learned how to compare solution options based on technical feasibility, complexity, and system-level impact.</p>
+                </article>
+                <article class="note-card">
+                    <span class="note-tag">Reflection</span>
+                    <h4>Final Insight</h4>
+                    <p>This course strengthened my ability to reason across system boundaries and apply a structured engineering mindset to complex challenges.</p>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <style>
+        .course-layout {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px;
+            margin-bottom: 28px;
+        }
+
+        .course-panel {
+            background: white;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 20px;
+            padding: 24px 22px;
+            color: #0f172a;
+            box-shadow: 0 16px 30px rgba(15, 23, 42, 0.05);
+        }
+
+        .course-panel h4 {
+            margin: 0 0 12px;
+            font-size: 1.25rem;
+        }
+
+        .course-panel p, .course-panel li {
+            color: #334155;
+            line-height: 1.8;
+        }
+
+        .note-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 22px;
+        }
+
+        .note-card {
+            background: white;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 18px;
+            padding: 20px 18px;
+            box-shadow: 0 14px 28px rgba(15, 23, 42, 0.05);
+            color: #0f172a;
+        }
+
+        .note-tag {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.1);
+            color: #4f46e5;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .note-card h4 {
+            margin: 0 0 10px;
+            font-size: 1.12rem;
+        }
+
+        .note-card p {
+            margin: 0;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 760px) {
+            .course-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
